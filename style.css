@@ -5,10 +5,12 @@
     margin: 12px 32px 0px 32px
 }
 .obertka {
+ 
   justify-content: space-between;
-  width: 76%;
-  display: flex;
-  flex-direction: row;
+    width: 76%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .wrapper  {
@@ -27,7 +29,7 @@
   color: var(--text-main, #212529);
 font-feature-settings: 'clig' off, 'liga' off;
 font-family: Roboto;
-font-size: 18px;
+font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -54,14 +56,13 @@ display: inline-flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-gap: 2px;
 color: var(--text-main, #212529);
-font-feature-settings: 'clig' off, 'liga' off;
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .obertka2 {
@@ -72,7 +73,7 @@ line-height: normal;
 }
 
 .obertka3 { 
-  display: list-item;
+  
   margin: 12px 50px 0px 32px;
   color:var(--text-main, #212529);
   font-feature-settings: 'clig' off, 'liga' off;
@@ -86,15 +87,44 @@ line-height: normal;
 
 
 .livingroom1 {
-  max-width: 100%;
+  /* max-width: 100%;
     height: auto;
   margin-top: -82px;
   margin-right: 0px;
-  position: relative;
-  right: -24.3%;
+  position: relative; */
+  /* right: -24.3%; */
+  width: 678px;
+height: 809px;
+flex-shrink: 0;
+}
+
+.livingroom2 {
+  /* max-width: 100%;
+    height: auto; */
+    width: 329px;
+height: 493px;
+flex-shrink: 0;
+margin-top: 17%;
+}
+
+.nnn {
+  display: flex;
+    margin-top: 6%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .zadymka {
+  color: var(--text-main, #212529);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 400px;
+    margin-top: 50px;
   width: 400px;
   margin-top: 50px;
 
@@ -103,6 +133,8 @@ line-height: normal;
 .obertka4 {
   margin: 149px 47px 0px 32px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .about-box text  {
@@ -110,6 +142,8 @@ line-height: normal;
 }
 
 .pytlet {
+  flex-wrap: wrap;
+    display: flex;
   width: 40%;
   color: var(--text-main, #212529);
 font-feature-settings: 'clig' off, 'liga' off;
@@ -187,7 +221,6 @@ line-height: 140%;
 
 .obertka5 {
   margin: 105px 47px 0px 32px;
-  
     flex-direction: row;
     display: flex;
     color: var(--text-main, #212529);
@@ -197,7 +230,22 @@ line-height: 140%;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    justify-content: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+  /* margin: 105px 47px 0px 32px;
+  
+  margin: 105px 47px 0px 32px;
+  flex-direction: row;
+  display: flex;
+  color: var(--text-main, #212529);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Helvetica;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  justify-content: center;
+  flex-wrap: wrap; */
 }
 
 .obertka6 {
@@ -206,6 +254,14 @@ line-height: 140%;
 }
 
 .steps_text {
+  color: var(--text-main, #212529);
+font-feature-settings: 'clig' off, 'liga' off;
+
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; 
   width: 325px;
   margin-left: 2%;
 }
@@ -215,10 +271,26 @@ line-height: 140%;
 }
 
 .text {
+  color: var(--text-main, #212529);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  width: 290px;
   width: 290px;
 }
 
 .Bigslovo {
+  color: var(--text-main, #212529);
+font-feature-settings: 'clig' off, 'liga' off;
+/* title/h3 */
+font-family: Helvetica;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
   width: 328px;
 }
 
@@ -249,7 +321,12 @@ height: 6px;
 }
 
 .projects-list {
-  display: grid;
+  list-style: none;
+    gap: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(21.5rem, 1fr));
   list-style-type:  none;
   gap: 1.25rem;
@@ -259,7 +336,7 @@ height: 6px;
   align-items: stretch;
   scroll-padding: 1.25rem;
   -ms-scroll-snap-type: x mandatory;
-  scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory; */
 }
 .textpruvsplytue {
   font-size: 1rem;
@@ -292,13 +369,12 @@ line-height: normal;
 
 
 .reviews {
+  margin: 0px 32px 0px 0px;
+  justify-content: space-between;
   list-style-type:  none;
-}
-
-.reviews {
-flex-wrap: nowrap;
-display: flex;
-gap: 133px;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 133px;
 }
 
 .name-otzyva {
@@ -314,12 +390,15 @@ line-height: normal;
 }
 
 .text-otzyva {
+  width: 365px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
 color: var(--text-main, #212529);
 text-align: center;
 font-feature-settings: 'clig' off, 'liga' off;
-
 font-family: Roboto;
-font-size: 16px;
+font-size: 19px;
 font-style: normal;
 font-weight: 400;
 line-height: 140%; 
@@ -338,18 +417,14 @@ display: flex;
     justify-content: center;
 }
 
-.text-otzyva {
-  width: 365px;
-  display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 .obertka7 {
   margin-top: 120px;
 }
 
 
 .napolnenue-otzyva {
+  padding: 2.5rem;
 border: 1px solid #000;
 
 background: #FFF;
