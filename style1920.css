@@ -1,4 +1,3 @@
-
 .header__logo {
     display: flex;
     justify-content: space-between;
@@ -71,7 +70,6 @@ color: var(--text-main, #212529);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    
 }
 
 .obertka2 {
@@ -100,20 +98,12 @@ color: var(--text-main, #212529);
 
 
 .livingroom1 {
-  /* max-width: 100%;
-    height: auto;
-  margin-top: -82px;
-  margin-right: 0px;
-  position: relative; */
-  /* right: -24.3%; */
   width: 678px;
 height: 809px;
 flex-shrink: 0;
 }
 
 .livingroom2 {
-  /* max-width: 100%;
-    height: auto; */
     width: 329px;
 height: 493px;
 flex-shrink: 0;
@@ -150,10 +140,6 @@ margin-top: 17%;
     justify-content: center;
 }
 
-.about-box text  {
-  
-}
-
 .pytlet {
   flex-wrap: wrap;
     display: flex;
@@ -178,7 +164,6 @@ font-style: normal;
 font-weight: 400;
 line-height: 140%;
 }
-
 
 .golova {
   margin: 0;
@@ -245,20 +230,6 @@ line-height: 140%;
     line-height: normal;
     justify-content: center;
     flex-wrap: wrap;
-  /* margin: 105px 47px 0px 32px;
-  
-  margin: 105px 47px 0px 32px;
-  flex-direction: row;
-  display: flex;
-  color: var(--text-main, #212529);
-  font-feature-settings: 'clig' off, 'liga' off;
-  font-family: Helvetica;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  justify-content: center;
-  flex-wrap: wrap; */
 }
 
 .obertka6 {
@@ -298,7 +269,6 @@ line-height: 140%;
 .Bigslovo {
   color: var(--text-main, #212529);
 font-feature-settings: 'clig' off, 'liga' off;
-/* title/h3 */
 font-family: Helvetica;
 font-size: 36px;
 font-style: normal;
@@ -320,8 +290,6 @@ height: 6px;
     border-bottom: 1px solid rgb(0, 0, 0); 
 }
 
-
-
 .cereduna {
   margin-left: 32px;
   color: var(--text-main, #212529);
@@ -339,17 +307,7 @@ height: 6px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-  /* display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(21.5rem, 1fr));
-  list-style-type:  none;
-  gap: 1.25rem;
-  overflow-x: auto;
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-  scroll-padding: 1.25rem;
-  -ms-scroll-snap-type: x mandatory;
-  scroll-snap-type: x mandatory; */
+
 }
 .textpruvsplytue {
   font-size: 1rem;
@@ -360,14 +318,11 @@ height: 6px;
 }
 
 .link {
-  
     
 }
 .projects-list {
   padding-left: 10px;
 }
-
-
 
 .Otzyv {
   margin-left: 32px;
@@ -379,7 +334,6 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-
 
 .reviews {
   margin: 0px 32px 0px 0px;
@@ -417,7 +371,6 @@ font-weight: 400;
 line-height: 140%; 
 }
 
-    
 .review-icon {
 display: flex;
     align-items: center;
@@ -430,11 +383,9 @@ display: flex;
     justify-content: center;
 }
 
-
 .obertka7 {
   margin-top: 120px;
 }
-
 
 .napolnenue-otzyva {
   padding: 2.5rem;

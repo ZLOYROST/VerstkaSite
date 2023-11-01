@@ -12,7 +12,8 @@
         width: 39px;
         height: 41px;
     }
-    .bigText {margin-top: 20px;
+    .bigText {
+        margin-top: 20px;
         height: 114px;
         width: 341px;
         margin-bottom: 5px;
@@ -22,7 +23,7 @@ font-family: Helvetica;
 font-size: 32px;
 font-style: normal;
 font-weight: 400;
-line-height: 120%; /* 38.4px */
+line-height: 120%;
 text-transform: uppercase;
     }
 
@@ -33,12 +34,11 @@ width: 328px;
         margin-top: 10px;
     color: var(--text-main, #212529);
     font-feature-settings: 'clig' off, 'liga' off;
-/* text/normal */
     font-family: Roboto;
     font-size: 19px;
     font-style: normal;
     font-weight: 400;
-    line-height: 140%; /* 22.4px */
+    line-height: 140%; 
     }
     .ZakazProekt {
         display: inline-flex;
@@ -49,7 +49,6 @@ gap: 2px;
 margin-left: 5px;
 color: var(--text-main, #212529);
 font-feature-settings: 'clig' off, 'liga' off;
-/* text/large */
 font-family: Roboto;
 font-size: 23px;
 font-style: normal;
@@ -67,7 +66,6 @@ display: none;
         margin-left: 5px;
         color: var(--text-main, #212529);
         font-feature-settings: 'clig' off, 'liga' off;
-        /* text/large */
         font-family: Roboto;
         font-size: 23px;
         font-style: normal;
