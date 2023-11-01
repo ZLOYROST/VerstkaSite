@@ -225,4 +225,14 @@ line-height: normal;
    .info {
     margin-left: 15px;
    }
+
+   .livingroom2 {
+    display: none;
+}
+
+.livingroom1 {
+width: 343px;
+height: 261px;
+flex-shrink: 0;
+}
 }
