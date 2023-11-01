@@ -1,0 +1,228 @@
+@media only screen and (max-width: 1000px) {
+    .phone {
+        display: none;
+    }
+    .wrapper {
+        display: none;
+    }
+    .burger {
+        display: flex;
+    }
+    .Firstlogo {
+        width: 39px;
+        height: 41px;
+    }
+    .bigText {margin-top: 20px;
+        height: 114px;
+        width: 341px;
+        margin-bottom: 5px;
+        color: var(--text-main, #212529);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Helvetica;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 38.4px */
+text-transform: uppercase;
+    }
+
+    .zadymka {
+        
+width: 328px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    color: var(--text-main, #212529);
+    font-feature-settings: 'clig' off, 'liga' off;
+/* text/normal */
+    font-family: Roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    }
+    .ZakazProekt {
+        display: inline-flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 2px;
+margin-left: 5px;
+color: var(--text-main, #212529);
+font-feature-settings: 'clig' off, 'liga' off;
+/* text/large */
+font-family: Roboto;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: none;
+    }
+
+    .ZakazProektForadaptiv {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+        margin-left: 5px;
+        color: var(--text-main, #212529);
+        font-feature-settings: 'clig' off, 'liga' off;
+        /* text/large */
+        font-family: Roboto;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration:underline ;
+    }
+.pytlet{
+display: none;
+}
+
+.oKompanuu {
+display: flex;
+color: var(--text-main, #212529);
+font-feature-settings: 'clig' off, 'liga' off;
+/* title/h2 mob */
+font-family: Helvetica;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+    .obertka4 {
+        margin: 36px 47px 0px 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+    }
+
+    .about-innercol {
+        width: 446px;
+    margin-left: 41px;
+    color: var(--text-main, #212529);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    }
+
+    .project {
+        display: flex;
+    height: 243px;
+    width: 562px;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    }
+
+    .Bigslovo {
+        height: 33px;
+        color: var(--text-main, #212529);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Helvetica;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 166px;
+    }
+
+    .Items6 {
+        margin-left: 18%;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .steps_text {
+        color: var(--text-main, #212529);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 325px;
+    margin-left: 23%;
+    }
+
+    .line {
+        margin-left: -127px;
+        width: 668px;
+        height: 6px;
+        border-bottom: 1px solid rgb(0, 0, 0);
+    }
+    .text {
+        color: var(--text-main, #212529);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 233px;
+    }
+    .reviews {
+        padding: 5px;
+        margin: 0px 32px 0px 0px;
+        justify-content: space-between;
+        list-style-type: none;
+        flex-wrap: wrap;
+        display: flex;
+        gap: 33px;
+    }
+
+    .napolnenue-otzyva {
+       padding: 0.5rem;
+       border: 1px solid #000;
+       background: #FFF;
+   } 
+
+   .projectimg1 {
+    display: none;
+   }
+
+   .pt {
+    font-size: 33px;
+   }
+
+   .title {
+    margin-left: 2px;
+   }
+   
+   .textfild {
+    width: 304px;
+   }
+   .Email {
+    width: 304px;
+   }
+   .number {
+    width: 304px;
+   }
+
+   .zayvka1 {
+    width: 129px;
+   }
+
+   .appstoreAndgp {
+    margin-top: 15px;
+   }
+
+   .projects-list {
+    padding-left: 1px;
+   }
+
+   .mmm {
+    margin-left: 30px;
+   }
+
+   .footer {
+    font-size: 15px;
+   }
+
+   .info {
+    margin-left: 15px;
+   }
+}
