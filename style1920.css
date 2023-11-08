@@ -493,31 +493,10 @@ line-height: 140%;
 }
 
 .appstoreAndgp {
-  
-  /* width: 121px; */
 height: 36px;
   margin-top: 40px;
 }
 
-/* .footer {
-  color: var(--text-main, #212529);
-font-feature-settings: 'clig' off, 'liga' off;
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-transform: uppercase;
-  margin: 100px 0px 12px 32px;
-}
- 
-.info {
-  width: 209px;
-}
-
-.prava {
-  width: 215px;
-} */
 .aveji {
 margin-bottom: 1px;
 }
@@ -543,7 +522,6 @@ margin: 100px 32px 8px 32px;
 
 .info {
   display: flex;
-  /* list-style-type: none; */
   flex-wrap: wrap;
   align-content: center;
 }

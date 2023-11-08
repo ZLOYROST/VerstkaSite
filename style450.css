@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 470px) {
     .phone {
         display: none;
     }
@@ -81,7 +81,6 @@ display: none;
 display: flex;
 color: var(--text-main, #212529);
 font-feature-settings: 'clig' off, 'liga' off;
-/* title/h2 mob */
 font-family: Helvetica;
 font-size: 28px;
 font-style: normal;
